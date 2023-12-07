@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nathan's website</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <header>
-            <img src="logo_website.png" alt="logo_website">
-            <h1>WELCOME TO MY WEBSITE</h1>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Projects</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
 
-        <main>
-            <div id="about">
-                <h2>About me</h2>
-                <p>Hello my name is Nathan Tran. I am studying Computer Science at University of Houston. My like to making website and programs. This my personal website. Thank you for your visiting!!!</p>
-            </div>
-            <div id="skills">
-                <h2>Skills</h2>
-                <p>C++, HTML, CSS, Javascript</p>
-            </div>
-            <div id="project">
-                <h2>Projects</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/a5dnVKqt7PI?si=xuvUOwBgZ43Ox8Of" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </main>
+<head>
+    <meta  charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Porfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
 
-        <footer>
-            <p>This is footer</p>
-        </footer>
-    </body>
+    <!-- box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Nathan</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="homne" id="home">
+        <div class="home-content">
+            <h1>Hello, I'm <span>Nathan Tran</span></h1>
+            <div class="text-animate">
+                <h3>Frontend Developer</h3>
+            </div>
+            <p>In as name to here them deny wise this. As rapid woody my he me which. Men but they fail shew just wish next put. Led all visitor musical calling nor her. Within coming figure sex things are. Pretended concluded did repulsive education smallness yet yet described. Had country man his pressed shewing. No gate dare rose he. Eyes year if miss he as up.</p>
+
+            <div class="btn-box">
+                <a href="#" class="btn">Hire me</a>
+                <a href="#" class="btn">Let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
