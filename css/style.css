@@ -508,16 +508,21 @@ span {
   justify-content: space-between;
 }
 
+.projects-content {
+  display: block;
+  padding-top: 4rem;
+}
+
 .projects-content h3 {
   position: relative;
   display: inline-block;
   font-size: 2.6rem;
+  margin: 2rem 0 3rem;
 }
 
 .projects-content p {
   position: relative;
   font-size: 1.6rem;
-  margin: 2rem 0 3rem;
 }
 
 .projects-sci {
@@ -525,6 +530,7 @@ span {
   width: 170px;
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 
 .projects-sci a {
